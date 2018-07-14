@@ -1,5 +1,6 @@
 const express = require('express');
-const config = require('./server/configure');
+// const config = require('./server/configure');
+const config = require('./server/config');
 let app = express();
 app.set('port', process.env.PORT || 3300);
 app.set('views', `${__dirname}/views`);
